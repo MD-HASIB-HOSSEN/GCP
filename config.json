@@ -6,7 +6,7 @@
       "protocol": "vless",
       "settings": {
         "clients": [
-          { "id": "HASIBHOSSENTECH" }
+          { "id": "HASIBHOSSEN" }
         ],
         "decryption": "none",
         "fallbacks": [
@@ -17,7 +17,7 @@
         "network": "ws",
         "security": "none",
         "wsSettings": {
-          "path": "/@bouchor"
+          "path": "/Telegram/Channel/@HASIB_FREE_INTERNET"
         }
       },
       "sniffing": {
