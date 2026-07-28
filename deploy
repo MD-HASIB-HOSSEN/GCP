@@ -122,9 +122,9 @@ SERVICE_URL=$(gcloud run services describe "$SERVICE_NAME" \
 
 HOST=$(echo "$SERVICE_URL" | sed 's|https://||')
 
-UUID="HASIBHOSSENTECH"
-WS_PATH="/@bouchor"
-ENCODED_PATH="%40bouchor"
+UUID="HASIBHOSSEN"
+WS_PATH="/Telegram/Channel/@HASIB_FREE_INTERNET"
+ENCODED_PATH="Telegram%2FChannel%2F%40HASIB_FREE_INTERNET"
 VLESS_LINK="vless://${UUID}@${HOST}:443?encryption=none&security=tls&type=ws&path=${ENCODED_PATH}&host=${HOST}#${SERVICE_NAME}"
 
 echo ""
